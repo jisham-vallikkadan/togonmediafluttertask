@@ -15,12 +15,12 @@ class Coursepage extends StatefulWidget {
 }
 
 class _CoursepageState extends State<Coursepage> {
-  List colorss = [
-    Colors.blue[900],
-    Colors.red[300],
-    Colors.green[300],
-  ];
-  Random randomcolor = new Random();
+  // List colorss = [
+  //   Colors.blue[900],
+  //   Colors.red[300],
+  //   Colors.green[300],
+  // ];
+  // Random randomcolor = new Random();
   @override
   Widget build(BuildContext context) {
     var topcourse = Provider.of<Courseprovider>(context, listen: false);
